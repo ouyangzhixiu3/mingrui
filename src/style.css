@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --surface-dark: #020617;
+  --surface-panel: #0f172a;
+  --surface-light: #f8fafc;
+  --surface-muted: #cbd5e1;
+  --accent: #0ea5e9;
+  --accent-soft: #22d3ee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.16), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(34, 211, 238, 0.12), transparent 26%),
+    var(--surface-dark);
+  color: #e2e8f0;
+  font-family:
+    "Aptos",
+    "Bahnschrift",
+    "Segoe UI",
+    "Microsoft YaHei",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  isolation: isolate;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tech-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.12) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: radial-gradient(circle at center, black 30%, transparent 90%);
+}
+
+.hero-scanline {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(148, 163, 184, 0.08) 1px,
+    transparent 1px
+  );
+  background-size: 100% 14px;
+  mix-blend-mode: screen;
+}
+
+::selection {
+  background: rgba(14, 165, 233, 0.35);
+  color: #ffffff;
+}
