@@ -20,12 +20,9 @@ watch(
 </script>
 
 <template>
-  <header class="fixed inset-x-0 top-0 z-50">
-    <div class="mx-auto max-w-7xl px-4 pt-4 sm:px-6">
-      <div class="relative overflow-hidden rounded-[28px] border border-white/10 bg-slate-950/80 shadow-[0_24px_60px_rgba(2,6,23,0.35)] backdrop-blur-2xl">
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(14,165,233,0.18),transparent_42%)]"></div>
-        <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-sky-400/70 to-transparent"></div>
-
+  <header class="bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6">
+      <div class="relative border-b border-white/10">
         <div class="relative flex h-[78px] items-center justify-between px-5 sm:px-6">
           <RouterLink to="/" class="min-w-0">
             <div class="flex items-center gap-3">

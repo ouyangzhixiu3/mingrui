@@ -13,7 +13,7 @@ withDefaults(
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-slate-950 px-6 pb-24 pt-40 text-white">
+  <section class="relative overflow-hidden bg-slate-950 px-6 pb-24 pt-20 text-white">
     <div class="tech-grid absolute inset-0 opacity-25"></div>
     <div class="hero-scanline absolute inset-0 opacity-35"></div>
     <div class="absolute right-[-140px] top-0 h-80 w-80 rounded-full bg-sky-500/20 blur-3xl"></div>

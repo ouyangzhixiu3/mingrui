@@ -17,7 +17,7 @@ import { workflowSteps } from '../data/technologies'
 
 <template>
   <main class="bg-slate-50 text-slate-950">
-    <section class="relative overflow-hidden bg-slate-950 px-6 pb-24 pt-36 text-white md:pt-40">
+    <section class="relative overflow-hidden bg-slate-950 px-6 pb-24 pt-16 text-white md:pt-20">
       <div class="tech-grid absolute inset-0 opacity-25"></div>
       <div class="hero-scanline absolute inset-0 opacity-30"></div>
       <div class="absolute right-[-180px] top-16 h-[420px] w-[420px] rounded-full bg-sky-500/18 blur-3xl"></div>
